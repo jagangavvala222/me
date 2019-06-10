@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static "css/fcss.css" %}">
+    <link rel="stylesheet" href="{%static "css/intro.css" %}">
+  </head>
+  <body>
+    <div class="container" align="center">
+
+
+    <nav class = "navbar navbar-default navbar-fixed-top" role = "navigation" style="background">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+          <a class="navbar-brand" href="/intro">JAGAN GAVVALA</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li ><a href="/">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="/intro">About Me</a></li>
+            <li><a href="/blog">Myblog</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">MyGithub link</a></li>
+            <li><a href="/contact">Contact Me</a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </div>
+    {%block title_block%}{%endblock%}
+    {%block navblock%}{%endblock%}
+    {%block introblock%}{%endblock%}
+    {%block thkblock%}{%endblock%}
+      {%block contactblock%}{%endblock%}
+      {%block homeintroblock%}{%endblock%}
+  </body>
+</html>

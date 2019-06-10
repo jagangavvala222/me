@@ -1,0 +1,66 @@
+.content{
+float:left;/*content left side*/
+width: 70%;/* width of the content 60% */
+padding:0 0 0 30px;/* BOX MODEL top padding 0 right padding 0 bottom padding 0 left padding 30*/
+background: #4162f4;/*background colour of content is red */
+height: 100;
+font-size: 20px;
+
+}
+.sidebar{
+width:30%;/* width of the content 60% */
+float:right;/*sidebar right side*/
+padding: 10px;/* padding all sides 10px*/
+background: #aa42f4;/*background colour of content is grenn */
+height: 100;
+font-size: 100%
+}
+h1{
+  text-align: center;/*h1 text is allign center*/
+  border-bottom: 1px solid yellow;/*border line bellow h1 tag 'JAGA's Blog yellow colour 1 px*/
+  padding-bottom: 10px;/*the gap between h1 content and line 10px */
+}
+body{
+  color: white;/*background colour of body is white so that text colour of body is white */
+
+  background-color:#4162f4;/*background colour of body is red */
+}
+/*id based css selectors */
+#date {
+  color: yellow;
+  font-size: 12px;
+  font-style: italic;
+}
+a {
+  color:  black /*change the colour of anchor tag*/
+}
+/* input[type='text' ] is for bacground of input text i.e name fields blue and text color white */
+input[type='text']{
+  background: ;
+  color: white;
+}
+/* input[type='submit' ] is for bacground of submit button is yellow  */
+input[type='submit']{
+  background: yellow;
+  color: black;
+}
+/* input is for bacground of input fields yello and text color blue */
+input{
+  background:;
+  color:;
+
+}
+#ch{
+  color: yellow;
+  font-size: 22px;
+  font-style: italic;
+  border-bottom: 1px solid yellow;
+}
+#pcount{
+  font-size: 40px;
+  color:yellow;
+  font-weight: bold;
+}
+form{
+  color: black;
+}

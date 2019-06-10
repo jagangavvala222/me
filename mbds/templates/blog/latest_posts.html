@@ -1,0 +1,8 @@
+<marquee behavior="scroll" direction="up" scrollamount="1">
+<ul>
+
+  {%for post in latest_posts%}
+<h6>  <li><a href="{{post.get_absolute_url}}">{{post.title}}</a></li></h6>
+  {%endfor%}
+</ul>
+</marquee>

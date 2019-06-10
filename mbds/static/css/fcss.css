@@ -1,0 +1,29 @@
+body{
+  background-color: #2055f7;
+}
+.container{
+  background-color:  #2055f7;
+}
+/* navbar */
+.navbar-default {
+    background-color: #a742f4;
+    border-color:#2055f7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #2d2d14;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #f9fafc;
+    font-size: 15px;
+    font-weight: bolde;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
